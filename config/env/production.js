@@ -41,7 +41,7 @@ module.exports = {
     * 2. Install it as a dependency of your Sails app.                         *
     *    (For example:  npm install sails-mysql --save)                        *
     *                                                                          *
-    * 3. Then set it here (`adapter`), along with a connection URL (`url`)     *
+    * 3. Then set it here (`adapter`), along with a connection URL (`url`)     *l
     *    and any other, adapter-specific customizations.                       *
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
@@ -148,9 +148,9 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
-      // allowOrigins: [
-      //   'https://example.com',
-      // ]
+      allowOrigins: [
+        '*',
+      ]
     },
 
   },

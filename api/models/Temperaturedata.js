@@ -13,7 +13,7 @@ module.exports = {
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-    dateandtime: { type: 'datetime', required: true },
+    dateandtime: { type: 'string', required: true },
     sensor: { type: 'string', required: true },
     temperature: { type: 'number', columnType: 'FLOAT' },
     humidity: { type: 'number' },

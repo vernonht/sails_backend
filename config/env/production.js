@@ -149,7 +149,7 @@ module.exports = {
     ***************************************************************************/
     cors: {
       allowOrigins: [
-        'https://sails-backend.herokuapp.com/',
+        'https://sails-backend.herokuapp.com',
       ]
     },
 

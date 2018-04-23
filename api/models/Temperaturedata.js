@@ -8,11 +8,12 @@
 module.exports = {
 
   attributes: {
-
+    autoCreatedAt: false,
+    autoUpdatedAt: false,
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-    dateandtime: { type: 'string', required: true },
+    dateandtime: { type: 'datetime', required: true },
     sensor: { type: 'string', required: true },
     temperature: { type: 'number', columnType: 'FLOAT' },
     humidity: { type: 'number' },

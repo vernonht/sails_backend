@@ -148,6 +148,8 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     cors: {
+      allRoutes: true,
+      allowCredentials: false,
       allowOrigins: [
         'https://sails-backend.herokuapp.com',
         'http://localhost',

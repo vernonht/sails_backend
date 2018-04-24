@@ -31,7 +31,8 @@ module.exports.security = {
   cors: {
     allRoutes: false,
     allowOrigins: '*',
-    allowCredentials: false,
+    allowCredentials: true,
+    allowAnyOriginWithCredentialsUnsafe: true
 //     allowRequestHeaders: 'Content-Type, Authorization'
   },
 

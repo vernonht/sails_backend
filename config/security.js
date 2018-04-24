@@ -29,10 +29,10 @@ module.exports.security = {
   ***************************************************************************/
 
   cors: {
-    allRoutes: true,
+    allRoutes: false,
     allowOrigins: '*',
     allowCredentials: false,
-    headers: 'Content-Type, Authorization'
+    allowRequestHeaders: 'Content-Type, Authorization'
   },
 
 

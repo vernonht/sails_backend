@@ -13,10 +13,10 @@ module.exports = {
     //  ╔═╗╦═╗╦╔╦╗╦╔╦╗╦╦  ╦╔═╗╔═╗
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
-    dateandtime: { type: 'string', required: true },
-    sensor: { type: 'string', required: true },
-    temperature: { type: 'number', columnType: 'FLOAT' },
-    humidity: { type: 'number' },
+    dateandtime: {type: 'string', required: true},
+    sensor: {type: 'string', required: true},
+    temperature: {type: 'number', columnType: 'float'},
+    humidity: {type: 'number'}
 
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
@@ -27,6 +27,6 @@ module.exports = {
     //  ╠═╣╚═╗╚═╗║ ║║  ║╠═╣ ║ ║║ ║║║║╚═╗
     //  ╩ ╩╚═╝╚═╝╚═╝╚═╝╩╩ ╩ ╩ ╩╚═╝╝╚╝╚═╝
 
-  },
+  }
 
 };

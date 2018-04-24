@@ -6,8 +6,9 @@
  */
 
 module.exports = {
-  getTemp: function() {
-          return 'temp';
-      },
+
+  getTemp: function (req, res) {
+    return res.ok('temp');
+  },
 
 };

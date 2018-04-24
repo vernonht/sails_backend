@@ -256,6 +256,7 @@ module.exports = {
     ***************************************************************************/
     onlyAllowOrigins: [
       'https://sails-backend.herokuapp.com',
+      'http://localhost',
 //       'https://staging.example.com',
     ],
 
@@ -326,7 +327,7 @@ module.exports = {
     * (https://sailsjs.com/config/http)                                        *
     *                                                                          *
     ***************************************************************************/
-    // trustProxy: true,
+    trustProxy: true,
 
   },
 

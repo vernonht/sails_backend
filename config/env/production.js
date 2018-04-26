@@ -149,13 +149,13 @@ module.exports = {
     ***************************************************************************/
 //     cors: {
 //       allRoutes: false,
-//       allowCredentials: true,
-//       allowAnyOriginWithCredentialsUnsafe: true,
-//       allowOrigins: [
-//         'https://sails-backend.herokuapp.com',
-//         'http://localhost',
-//       ]
-//     },
+      allowCredentials: true,
+      allowOrigins: [
+        'https://sails-backend.herokuapp.com',
+        'https://vernonht.github.io',
+        'http://localhost',
+      ]
+    },
 
   },
 

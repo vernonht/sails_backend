@@ -153,7 +153,7 @@ module.exports = {
       allowOrigins: [
         'https://sails-backend.herokuapp.com',
         'https://vernonht.github.io',
-        'http://localhost',
+        'http://localhost:3000',
       ]
     },
 

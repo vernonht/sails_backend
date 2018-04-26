@@ -41,6 +41,9 @@ module.exports.routes = {
   ***************************************************************************/
   'GET /temperaturedata': {
      cors: false
+  },
+  'GET /getTemp': {
+     cors: false
   }
 
   //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗

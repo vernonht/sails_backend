@@ -7,8 +7,9 @@
 
 module.exports = {
 
-  getTemp: function (req, res) {
-    return res.ok('temp');
+  getTemp: async function (req, res) {
+    var temp = await Temperaturedata.find();
+    return res.ok(temp);
   },
 
 };

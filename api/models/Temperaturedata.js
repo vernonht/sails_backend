@@ -14,6 +14,8 @@ module.exports = {
     //  ╠═╝╠╦╝║║║║║ ║ ║╚╗╔╝║╣ ╚═╗
     //  ╩  ╩╚═╩╩ ╩╩ ╩ ╩ ╚╝ ╚═╝╚═╝
     // dateandtime: {type: 'string', required: true},
+    createdAt: {type: 'string', columnType: 'datetime'},
+    updatedAt: {type: 'string', columnType: 'datetime'},
     sensor: {type: 'string', required: true},
     temperature: {type: 'number', columnType: 'float'},
     humidity: {type: 'number'},

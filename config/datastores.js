@@ -49,7 +49,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: require('sails-mysql'),
-    url: 'mysql://process.env.DB_USERNAME:process.env.DB_PASSWORD@db4free.net:process.env.DB_PORT/process.env.DB_NAME',
+    url: process.env.DB_PATH,
 
   },
 

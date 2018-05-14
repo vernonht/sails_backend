@@ -8,7 +8,19 @@
 module.exports = {
 
   getTemp: async function (req, res) {
-    var temp = await Temperaturedata.find();
+    if(!req.param('all') && !req.param('daterange')){
+      var now = new Date(),
+      start = now.getFullYear()+'/'+(now.getMonth()+1)+'/'+now.getDate();
+      var temp = await Temperaturedata.find({createdAt: {'>=':new Date(start)}});
+    }
+    else if(!req.param('all') && req.param('daterange')){
+      var now = new Date(),
+      start = now.getFullYear()+'/'+(now.getMonth()+1)+'/'+(now.getDate()-req.param('daterange'));
+      var temp = await Temperaturedata.find({createdAt: {'>=':new Date(start)}});
+    }
+    else if (req.param('all')){
+      var temp = await Temperaturedata.find();
+    }
     return res.ok(temp);
   },
 
